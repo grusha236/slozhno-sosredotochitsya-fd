@@ -6,14 +6,16 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #ffc2e6;
+    --bg-color: #fff1f7;
     --subtitle-color: #353430;
     --heading-color: #ffc2e6;
     --text-color: #353430;
+    --accent-bg-color: #ffc2e6;
     --accent-color: #ff8dcb;
     --botton-color: #353430;
     --color-transparent: rgba(53, 52, 48, 0.4);
     --bg-image: url(../images/cover-image-light.png);
+  }
   }
   .header__rec {
     display: none;
@@ -25,14 +27,15 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-color: #ffc2e6;
-  --subtitle-color: #fff1f7;
-  --accent-bg-color: #ffc2e6;
+  --bg-color: #fff1f7;
+  --subtitle-color: #353430;
   --heading-color: #ffc2e6;
   --text-color: #353430;
+  --accent-bg-color: #ffc2e6;
   --accent-color: #ff8dcb;
-  --bg-image: url(../images/cover-image-light.png);
+  --botton-color: #353430;
   --color-transparent: rgba(53, 52, 48, 0.4);
+  --bg-image: url(../images/cover-image-light.png);
 }
 
 .theme-light .page {
@@ -41,6 +44,7 @@
   --subtitle-color: #353430;
   --heading-color: #ffc2e6;
   --text-color: #353430;
+  --accent-bg-color: #ffc2e6;
   --accent-color: #ff8dcb;
   --botton-color: #353430;
   --color-transparent: rgba(53, 52, 48, 0.4);
